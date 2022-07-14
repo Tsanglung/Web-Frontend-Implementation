@@ -1,0 +1,26 @@
+<!DOCTYPE html><!-- doctype 表示<!DOCTYPE html> 這支 HTML 檔案包含 HTML5 程式碼 -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple website</title><!--網頁標題-->
+    <link rel="stylesheet" href="main.css"><!--連結到外部樣式表(.css檔案)-->
+  </head>
+  <body class="light-theme"><!--body瀏覽器內可看見的內容--><!--class="",使用類別名稱""來更新body元素-->
+    <h1><font face="times new roman">Task List(<font face="標楷體">任務清單</font>)</font></h1><!--h1標題元素-->
+    <p id="msg"><font face="times new roman">Current tasks:(<font face="標楷體">目前任務</font>)</font></p><!--p段落元素-->
+    <ul><!--ul無序列表-->
+        <font face="times new roman">
+        <li class="list">Add visual styles</li><!--li列表項-->
+        <li class="list">Add light and dark themes</li>
+        <li class="list">Enable switching the theme</li>
+        </font>
+    </ul>
+    <div>
+    <button class="btn">Dark</button><!--按鈕-->
+    </div>
+    <script src="app.js"></script><!--連結外部的javascript(.js檔案)-->
+    <noscript>You need to enable JavaScript to view the full site.</noscript><!--偵測和規畫不支援或無法使用的功能-->
+    </body>
+</html>
