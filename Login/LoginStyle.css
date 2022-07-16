@@ -1,0 +1,48 @@
+body{
+    font-family: Roboto;
+    background-color:rgb(102, 69, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Login{
+    background-color: #b4cc2e;
+    width: 400px;
+    color:black;
+    padding: 40px;
+    box-shadow: 10px 10px 25px black;
+    text-align: center;
+}
+.Login input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    outline:none;
+    color: white;
+}
+
+.Login input[type="text"],.Login input[type="password"]{
+    border:2px solid #3498db;
+    width:220px;
+}
+
+.Login input[type="submit"]{
+    width: 150px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+}
+
+.Login input[type="text"]:focus,.Login input[type="password"]:focus{
+    border-color: #2ecc71;
+    width:280px;
+    transition: 0.5s;
+}
+
+.Login input[type="submit"]:hover{
+    background-color: #2ecc71;
+    transition: 0.5s;
+}
